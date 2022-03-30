@@ -1,6 +1,4 @@
-package calculator;
-
-import java.util.Arrays;
+package javacalculator.calculator;
 
 public class InputParser {
     private InputValidator inputValidator;

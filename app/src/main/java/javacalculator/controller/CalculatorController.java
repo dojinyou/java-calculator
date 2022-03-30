@@ -1,9 +1,9 @@
-package controller;
+package javacalculator.controller;
 
-import calculator.StringCalculator;
-import consoleview.ConsoleView;
-import database.Database;
-import database.FormulaEntity;
+import javacalculator.calculator.StringCalculator;
+import javacalculator.consoleview.ConsoleView;
+import javacalculator.database.Database;
+import javacalculator.database.FormulaEntity;
 
 import java.io.IOException;
 

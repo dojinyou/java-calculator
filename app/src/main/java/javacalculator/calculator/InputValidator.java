@@ -1,4 +1,4 @@
-package calculator;
+package javacalculator.calculator;
 
 public class InputValidator {
     public boolean valid(String[] splittedInputFormula) {

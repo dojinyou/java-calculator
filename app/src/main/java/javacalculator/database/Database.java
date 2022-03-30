@@ -1,8 +1,7 @@
-package database;
+package javacalculator.database;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.Iterator;
 
 public class Database {
     private Deque<FormulaEntity> database;

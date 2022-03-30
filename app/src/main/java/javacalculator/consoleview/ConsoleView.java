@@ -1,4 +1,4 @@
-package consoleview;
+package javacalculator.consoleview;
 
 import java.io.IOException;
 import java.util.Scanner;

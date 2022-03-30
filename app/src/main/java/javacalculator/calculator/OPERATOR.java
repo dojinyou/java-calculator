@@ -1,4 +1,4 @@
-package calculator;
+package javacalculator.calculator;
 
 public enum OPERATOR {
     PLUS("+", 0),

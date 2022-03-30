@@ -1,4 +1,4 @@
-package database;
+package javacalculator.database;
 
 public class FormulaEntity {
     static long nextId = 0;

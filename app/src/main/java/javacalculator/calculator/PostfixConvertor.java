@@ -1,8 +1,6 @@
-package calculator;
+package javacalculator.calculator;
 
 import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Deque;
 
 public class PostfixConvertor {

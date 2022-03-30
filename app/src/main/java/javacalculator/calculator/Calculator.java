@@ -1,4 +1,4 @@
-package calculator;
+package javacalculator.calculator;
 
 public class Calculator {
     public double plus(double operand1, double operand2) {

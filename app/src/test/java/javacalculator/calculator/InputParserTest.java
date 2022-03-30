@@ -1,4 +1,4 @@
-package calculator;
+package javacalculator.calculator;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
