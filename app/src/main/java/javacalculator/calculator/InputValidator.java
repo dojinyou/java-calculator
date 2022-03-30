@@ -20,7 +20,7 @@ public class InputValidator {
     }
 
     private boolean isValidLength(String[] splittedInputFormula) {
-        return splittedInputFormula.length < 3 || splittedInputFormula.length % 2 == 0;
+        return splittedInputFormula.length >= 3 && splittedInputFormula.length % 2 != 0;
     }
 
     private boolean isOperator(String operator) {
