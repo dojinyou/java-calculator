@@ -16,7 +16,7 @@ public class PostfixConvertor {
                 postfix[indexIndicator++] = element;
                 continue;
             }
-            while (!stack.isEmpty() && OPERATOR.getPriority(stack.peek()) >= OPERATOR.getPriority(element)) {
+            while (!stack.isEmpty() && Operator.getPriority(stack.peek()) >= Operator.getPriority(element)) {
                 postfix[indexIndicator++] = stack.pop();
             }
             stack.push(element);

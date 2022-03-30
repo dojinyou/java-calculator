@@ -12,7 +12,7 @@ public class InputValidator {
     }
 
     private boolean isOperator(String operator) {
-        return OPERATOR.isOperator(operator);
+        return Operator.isTextOperator(operator);
     }
 
     private boolean isNumber(String stringNumber) {
