@@ -1,20 +1,18 @@
+<<<<<<< HEAD
 # .idea/
+=======
+# IntelliJ
+>>>>>>> a7349801471e3a9de8fd019ded55052b0b35821a
 .idea/*
 
 # CMake
 cmake-build-*/
-
-# Mongo Explorer plugin
-.idea/**/mongoSettings.xml
 
 # File-based project format
 *.iws
 
 # IntelliJ
 out/
-
-# mpeltonen/sbt-idea plugin
-.idea_modules/
 
 # JIRA plugin
 atlassian-ide-plugin.xml
@@ -25,12 +23,15 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+<<<<<<< HEAD
 # Editor-based Rest Client
 .idea/httpRequests
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
+=======
+>>>>>>> a7349801471e3a9de8fd019ded55052b0b35821a
 ### Java ###
 # Compiled class file
 *.class

@@ -1,5 +1,8 @@
 plugins {
+<<<<<<< HEAD
     // Apply the application plugin to add support for building a CLI application in Java.
+=======
+>>>>>>> a7349801471e3a9de8fd019ded55052b0b35821a
     id 'java' version "11.0.14"
 }
 

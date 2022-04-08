@@ -38,29 +38,29 @@ public enum Operator {
     }
 
 
-    public static int getPriority(String operator) {
-        if (PLUS.getTextOperator().equals(operator)) return PLUS.priority;
-        if (MINUS.getTextOperator().equals(operator)) return MINUS.priority;
-        if (MULTIPLY.getTextOperator().equals(operator)) return MULTIPLY.priority;
-        if (DIVIED.getTextOperator().equals(operator)) return DIVIED.priority;
-        return -1;
+    public static int getPriority(String textOperator) {
+        return getOperator(textOperator).priority;
     }
 
-    public static boolean isTextOperator(String operator) {
-        for (Operator op : Operator.values()) {
-            if (op.getTextOperator().equals(operator)) return true;
+    public static boolean isTextOperator(String inputTextOperator) {
+        try {
+            getOperator(inputTextOperator);
+            return true;
+        } catch(IllegalArgumentException e) {
+            return false;
         }
-        return false;
     }
 
     public static Operator getOperator(String textOperator) {
         Operator operator = null;
-        if (PLUS.getTextOperator().equals(textOperator)) operator = Operator.PLUS;
-        if (MINUS.getTextOperator().equals(textOperator)) operator = Operator.MINUS;
-        if (MULTIPLY.getTextOperator().equals(textOperator)) operator = Operator.MULTIPLY;
-        if (DIVIED.getTextOperator().equals(textOperator)) operator = Operator.DIVIED;
-
+        for (Operator op : Operator.values()) {
+            if (op.getTextOperator().equals(textOperator)) {
+                operator = op;
+                break;
+            }
+        }
         if (operator == null) throw new IllegalArgumentException("올 바르지 않은 연산자입니다.");
+
         return operator;
     }
 
